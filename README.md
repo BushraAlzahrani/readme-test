@@ -26,13 +26,13 @@ The user profile includes the follwing functionalities:
 
 The crud (create, read, update, delete) has two roles a user and admin each has thier own functionalities.
 
-**	The user functionalities:**
+**The user functionalities:**
 -  View products
 - Search products
 - Add or delete product to/from cart
 - Add or delete product to/from favorite
 
-**	The Admin functionalities:**
+**The Admin functionalities:**
 -  View user information
 - Edit  user information
 - Edit password 
@@ -41,14 +41,14 @@ The crud (create, read, update, delete) has two roles a user and admin each has 
 ### **5. Current Location**
 The current location works on android ios, and web. To activate it you need to add the api key for google map in each one.
 
-**	Android:**
+**Android:**
 
 In your flutter project go to the **androidmanifest.xml** file by following this path *android/app/main/androirdmanifest.xml*. In the 10th line add the api key:
 ```xml
 <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_KEY"/>
 ```
 
-**	IOS:**
+**IOS:**
 
 In your flutter project go to **AppDelegate.swift** file  by following this path *ios/runner/AppDelegate.swift*. In the 11th line add the api key:
 
@@ -56,7 +56,7 @@ In your flutter project go to **AppDelegate.swift** file  by following this path
 GMSServices.provideAPIKey("YOUR_KEY")
 ```
 
-**	Web**
+**Web**
 
 In your flutter project go to **index.html** file  by following this path *web/index.html*. In the 35th line add the api key:
 
