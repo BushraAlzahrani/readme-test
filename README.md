@@ -64,7 +64,6 @@ In your flutter project go to **index.html** file  by following this path *web/i
 ```html
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY"></script>
 ```
-
 To enable Api do this
 1. Go to API Manager
 2. Click on Overview
@@ -116,7 +115,6 @@ All the flutter widgets styles from color to sizes are included in themes folder
 themeMode: ThemeController().themeDataGet,
 theme: ThemeApp.lightTheme,
 darkTheme: ThemeApp.darkTheme,````
-
 
 ### 3. Featuers: 
 
