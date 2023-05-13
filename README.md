@@ -115,7 +115,3 @@ All the flutter widgets styles from color to sizes are included in themes folder
 themeMode: ThemeController().themeDataGet,
 theme: ThemeApp.lightTheme,
 darkTheme: ThemeApp.darkTheme,````
-
-### 3. Featuers: 
-
-The feature folder consists of the features mentioned above as the main folders and each includes three folders logic, model, and view. First, the logic consists of all the logical solutions for said feature in two sub-folders the first one is the controller which is the place where you write all the functions you need for your project. the second folder in logic is the service it is where the connection and data manipulation of the firebase database is done. The second main folder in a feature folder is the model which is the structure of the data for a said feature, this folder is excluded from the features Authentication and google map as it was unnecessary for them, because for the authentication the structure of the user data is already provided from firebase authentication and as for google map there was no mean to save its data to firebase which is the user current location. 
