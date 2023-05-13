@@ -84,30 +84,30 @@ Includes the widgets which are common betweenfeatures.
 
 The core folder consists of the following folders. 
 
-** a. binding: **
+**a. binding:**
 
 Includes the dependency injection for all the controllers.
 
-** b. constants: **
+**b. constants:**
 
 Includes all the strings that will be used often throught the app which are the image pathes, the firbase collections the keys for the getx storage the screen sizes and finally the validation format to handel the user input e.g email.
 
-** c. db: **
+**c. db:**
 
 The database folder is where the firebase instances are initailzed which are Firebase Auth, Firebase Firestore and Firebase Storage.
 
-** d. localization:**
+**d. localization:**
 
 The localization is where the translation is done it has tow languages Arabic and English each language has its' own file consisting of all the app text written as a map the key is shared between the languages and the value is the translation.
 
-** e. responsive:**
+**e. responsive:**
 
 Includes the devices sizes which are mobile, larage mobile, tablet and desktop.
 
-** f. routes:**
+**f. routes:**
 
 Includes all the app screens route.
-** g. themes:**
+**g. themes:**
 
 All the flutter widgets styles from color to sizes are included in themes folder.  This folder can be taken in another project with or without any state management, and it will apply the theme you have in your flutter app project, all you need to do is add the theme controller in your **main.dart** like so: 
 ```dart
